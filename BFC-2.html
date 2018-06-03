@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+    ul,li{
+        margin:0;
+    }
+
+    .first{
+        width:800px;
+        margin:0 auto;
+    }
+
+    .first>h1{
+        color:#333;
+        padding-bottom:10px;
+        border-bottom:1px solid #333;
+        text-align:center;
+    }
+    .u1{
+        margin-left:-50px;
+    }
+
+    .u1::after{
+        content:'';
+        display:block;
+        clear:both;
+    }
+
+    .u1 .cat{
+        float:left;
+        margin-left:13px;
+        margin-top:30px;
+        list-style:none;
+    }
+
+    .cat{
+        width:257px;
+        box-shadow:0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19)!important;
+    }
+
+    .cat>img{
+        width:100%;
+        opacity:0.75;
+    }
+
+    .cat>div{
+        padding:1px 16px;
+        text-align:center;
+    }
+
+    .cat>div>p{
+        overflow:hidden;
+        text-overflow:ellipsis;
+        white-space:nowrap;
+    }
+    </style>
+</head>
+<body>
+    <div class="first content">
+        <h1>什么列表</h1>
+    <ul class="u1 content">
+        <li class="l1 cat">
+                <img src="https://github.com/zhbsdsb/0504/blob/master/e9b5641ecd2544af859222e635efb2a8.jpg?raw=true" alt="">
+                <div class="d1"><p>火箭升天</p></div>
+        </li>
+
+        <li class="l2 cat">
+                <img src="https://github.com/zhbsdsb/0504/blob/master/e9b5641ecd2544af859222e635efb2a8.jpg?raw=true" alt="">
+                <div class="d2"><p>火箭升天</p></div>
+        </li>
+
+        <li class="l3 cat">
+                <img src="https://github.com/zhbsdsb/0504/blob/master/e9b5641ecd2544af859222e635efb2a8.jpg?raw=true" alt="">
+                <div class="d3"><p>火箭升天</p></div>
+        </li>
+
+        <li class="l4 cat">
+                <img src="https://github.com/zhbsdsb/0504/blob/master/e9b5641ecd2544af859222e635efb2a8.jpg?raw=true" alt="">
+                <div class="d4"><p>火箭升天</p></div>
+        </li>
+
+        <li class="l5 cat">
+                <img src="https://github.com/zhbsdsb/0504/blob/master/e9b5641ecd2544af859222e635efb2a8.jpg?raw=true" alt="">
+                <div class="d5"><p>火箭升天</p></div>
+        </li>
+
+        <li class="l6 cat">
+                <img src="https://github.com/zhbsdsb/0504/blob/master/e9b5641ecd2544af859222e635efb2a8.jpg?raw=true" alt="">
+                <div class="d6"><p>火箭升天</p></div>
+        </li>
+    </ul>
+</div>
+</body>
+</html>
