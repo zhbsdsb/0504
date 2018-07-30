@@ -2,28 +2,27 @@
 <html lang="en">
 <head>
     <style>
-    .DT{
-        width:1000px;
-        margin:0 auto;
-    }
-    .d1,.d2,.d3{
-        height:700px;
+    body::after{
+        content:'';
+        dispay:block;
+        clear:both;
     }
     .d1{
+        height:200px;
         width:200px;
         float:left;
         background: rgba(150, 226, 79, 0.3);
     }
     .d3{
+        height:200px;
         width:200px;
-        float:left;
+        float:right;
         background: rgba(66, 144, 207, 0.3);
     }
     .d2{
-        width:50%;
         background: rgba(243, 84, 84, 0.3);
-        margin:0 auto;
-        float:left;
+        margin:0 200px;
+        height:500px;
     }
 
     </style>
@@ -31,8 +30,8 @@
 <body>
     <div class="DT">
     <div class="d1"></div>
-    <div class="d2"></div>
     <div class="d3"></div>
+    <div class="d2"></div>
 </div>
     
 </body>
